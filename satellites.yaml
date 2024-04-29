@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: satellites
+  labels:
+    app: satellites
+spec:
+  containers:
+  - name: satellitesapp
+    image: 760594067048.dkr.ecr.us-west-1.amazonaws.com/satellites
